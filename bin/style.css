@@ -1,0 +1,42 @@
+body {
+	padding-top: 30px;
+	/*margin-top: 30px;*/
+	/*background: transparent;*/
+	background: rgb(189, 189, 189);
+	/*background: url('/media/wallpaper.jpg') center center fixed;*/
+	/*background-size: cover;*/
+}
+.tampilan-hp {
+	width: 480px;
+	margin: auto;
+	overflow: hidden;
+}
+a {
+	text-decoration: none !important;
+	color: inherit !important;
+}
+.background {
+	margin: auto;
+}
+.background img {
+	z-index: -1;
+	position: fixed;
+	margin-top: -30px;
+	height: 100%;
+	width: 480px;
+}
+/*.background {
+	display: none;
+}*/
+.grid-item {
+	width: 33%;
+	padding: 5px;
+}
+.grid-item p {
+	margin-top: 10px;
+	font-size: 20px;
+}
+.thumbnail {
+	background: rgba(255, 255, 255, 0.8);
+	border: none;
+}
